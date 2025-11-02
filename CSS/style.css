@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+background-color: #f9f9f9;
+color: #333;
+line-height: 1.6;
+}
+.top{
+    display: flex;
+    border-radius: 15px;
+    padding-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ border-bottom: 2px solid rgb(70, 151, 70) ;
+ background:rgb(70, 151, 70) ;
+}
+.logo , .nav{
+     background:rgb(70, 151, 70) ;
+    width: 50%;
+    border-radius: 15px;
+}
+.logo img{
+    width: 100%;
+    border-radius: 10px;
+    height: 155px;
+}
+.logo{
+    background: white;
+}
+.nav{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  
+}
+.na{
+    color: rgb(18, 58, 73);
+    margin-left: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: 500;
+    align-content: center;
+    background-color: transparent;
+    font-size: medium;
+}
+.na:hover , .na:active{
+    color: yellowgreen;
+
+}
+.list ul{
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+.list, .l{
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    line-height: 0.6;
+    padding: 10px;
+}
+.banner{
+ width: 100%;
+}
+.image{
+width: 100%;
+}
+.title {
+font-size: 36px;
+text-align: center;
+ margin-bottom: 20px;
+color: #13c557 ;
+font-weight: bold;
+}
+.subtitle {
+text-align: center;
+font-size: 18px;
+color: black;
+ margin-bottom: 40px;
+font-weight: 500;
+}
+.info{
+text-align: center;
+    padding: 30px;
+    font-weight: 300;
+}
+.list{
+text-align: center;
+    padding: 30px;
+    font-weight: 300;
+    text-decoration: none; 
+    list-style-type:none; 
+}
+.l{
+ text-decoration: none;    
+}
+.button{
+align-self: center;
+	color: white;
+	padding: 10px 20px;
+	background: rgb(28, 129, 49);
+	border: none;
+	border-radius: 50px;
+    margin: 0px 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    transform: translateY(-5px);
+}
+.buttoni{
+	color: white;
+	padding: 10px;
+	background: rgb(28, 129, 49);
+	border: none;
+	border-radius: 50px;
+    margin: 20px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.buttoni:hover{
+    transform: translateY(-5px);
+}
+.but{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.but:hover{
+    transform: translateY(-5px);
+}
+.footer{
+    text-align: center;
+    padding: 30px;
+    font-weight: 300;
+    background: gray;
+    margin: 20px 0;
+}
+.footer h4, .footer p{
+    background: transparent;
+}
+.form{
+            margin: 150px 250px;
+            text-align: center;
+            background: rgba(247, 244, 244, 0.87);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(5, 5, 5, 0.05);
+            font-weight: 400;
+}
+textarea{
+   width: 60%;
+    padding: 25px;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background:transparent;
+}
+input{
+    width: 60%;
+    padding: 9px;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background:transparent;
+}
+.form p{
+    color: #333;
+    background: transparent;
+    font-weight: 500 ;
+}
+.sel{
+    width: 60%;
+    padding: 9px;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.contactpage{
+   display: flex;
+   width: 100%;
+}
+.right-form , .left-vid{
+    width: 50%;
+}
+.right-form{
+             margin: 50px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.87);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(5, 5, 5, 0.05);
+            font-weight: 400;
+}
+.right-form{
+    box-sizing: border-box;
+}
+.right-form h5 {
+    font-size: large;
+}
+.k41{
+font: weight 200px; 
+font-size: 900px;
+}
+.right-form p{
+font-weight: 500;
+color: #333;
+}
+.c{
+    width: 50%;
+}
+.left-vid img{
+    border-radius: 10px;
+}
+        /*About Us*/
+        .abtheader h1{
+font-size: 40px;
+            margin-bottom: 50px;
+            color: #010a05;
+            text-align: center;
+            font-weight: bold;
+        }
+        .abtheader h2{
+font-size: 32px;
+            margin-bottom: 50px;
+            color: #13c557;
+            text-align: center;
+        }
+.mission h4{
+font-size: 32px;
+margin-bottom: 50px;
+color: #13c557;
+text-align: center;
+}             
+        
+.mission h3 {
+font-size: 32px;
+margin-bottom: 50px;
+color: #13c557;
+text-align: center;
+}
+.mission p{
+color: #555;
+font-size: 16px;
+background: transparent;
+}
+.mission{
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.col-4 p{
+    text-align: center;
+}
+.row h1{
+ padding-top: 20px;
+font-size: 32px;
+margin-bottom: 50px;
+color: #13c557;
+text-align: center;
+} 
+.row{
+    padding: 10px;
+}
+.col-4{
+border-radius: 30px;
+box-shadow: #555;
+border-width: 2px;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.benefits {
+ padding: 80px 0;
+background-color: white;
+        }
+        
+ .title {
+font-size: 32px;
+margin-bottom: 50px;
+color: #13c557;
+text-align: center;}
+        
+.benefits-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+}
+        
+.benefit-card {
+ background-color: #f8f9fa;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+        
+.benefit-card:hover {
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+ transform: translateY(-8px);
+}
+        
+.benefit-card h3 {
+font-size: 20px;
+margin-bottom: 15px;
+color: #13c557;
+display: flex;
+ align-items: center;
+gap: 10px;
+background: transparent;
+}
+        
+.benefit-card p {
+ color: #555;
+font-size: 16px;
+background: transparent;
+}
+.abtheader p{
+color: #555;
+font-size: 16px;
+ background: transparent;
+}
+        
+.titlep{
+font-size: 32px;
+margin-bottom: 50px;
+color: #13c557;
+text-align: center;
+}  
+.plogo{
+background-color: #f8f9fa;
+ padding: 30px;
+border-radius: 8px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+background: transparent;
+cursor: pointer;       
+}
+.glogo{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+ }
+ .plogo:hover{
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+transform: translateY(8px);
+ }
+.app{
+    margin:auto;
+    background: url(../assets/banner1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+} 
+.app img{
+    width: 100%;
+}
+.form h2{
+    text-align: center;
+    padding: 10px;
+    color: #13c557 ;
+    background: transparent;
+}
+.lower{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.low{
+    width: 50%;
+}
+.lower img{
+    padding: 5px;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+} 
+.tact{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+}
+.tact h5 a {
+    padding: 10px;
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+    }
+
+    .logo, .nav {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 80%;
+        height: auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .na {
+        display: block;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    .banner, .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+    .button {
+        margin: 15px auto;
+        padding: 10px 25px;
+        font-size: 16px;
+        display: block;
+    }
+
+    .buttoni {
+        margin: 10px;
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+    .form {
+        margin: 40px 20px;
+        padding: 20px;
+    }
+
+    input, textarea, .sel {
+        width: 90%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .contactpage {
+        flex-direction: column;
+    }
+
+    .right-form, .left-vid {
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .left-vid img {
+        width: 100%;
+        height: auto;
+    }
+    .mission h3, .mission h4, .abtheader h1, .row h1 {
+        font-size: 26px;
+    }
+
+    .mission p, .abtheader p, .benefit-card p {
+        font-size: 15px;
+    }
+
+    .benefits-grid, .glogo {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .col-4{
+        width: 100%;
+        grid-column: auto;
+    }
+
+    .benefit-card, .plogo {
+        padding: 10px;
+    }
+    .footer {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+    .lower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .low, .tact {
+        width: 100%;
+    }
+
+    .lower img {
+        width: 80%;
+        height: auto;
+    }
+}
+
